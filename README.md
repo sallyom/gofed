@@ -11,11 +11,11 @@ Supported features:
 * other useful commands (parallel push, pull or update of all chosen branches, ...)
 
 ## Installation
-The repository provides a spec file for Fedora. The package can be build as:
+The repository provides a spec file for Fedora. The package can be built with:
 
    ```vim
-   $ wget https://github.com/ingvagabund/GolangPackageGenerator/archive/<commit>/gpg-<shortcommit>.tar.gz
-   $ cp gpg-<shortcommit>.tar.gz /home/<user>/rpmbuild/SOURCES/.
+   $ wget https://github.com/ingvagabund/GolangPackageGenerator/archive/<commit>/gofed-<shortcommit>.tar.gz
+   $ cp gofed-<shortcommit>.tar.gz /home/<user>/rpmbuild/SOURCES/.
    $ rpmbuild -ba *.spec
    $ rpm -Uvh <built rpm>.rpm
    ```
